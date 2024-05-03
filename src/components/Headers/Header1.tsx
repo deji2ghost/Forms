@@ -45,7 +45,7 @@ export const Header1 = () => {
         </ul>
       </div>
       <ul 
-        className={`${clicked ? 'transform translate-x-0' : 'transform translate-x-full' } text-[#2F2F2F] bg-[#FFB80E] z-10 transition-transform ease-in-out duration-300 font-normal flex flex-col text-center absolute top-0 w-[50%] h-screen right-0 md:hidden`}
+        className={`${clicked ? 'transform translate-x-0' : 'transform translate-x-full' } text-[#2F2F2F] bg-[#FFB80E] z-10 transition-transform ease-in-out duration-300 font-normal flex flex-col text-center fixed h-screen top-0 w-[50%] right-0 md:hidden`}
       >
         <FontAwesomeIcon 
           className='text-[20px] font-semibold absolute top-4 right-4 md:hidden'

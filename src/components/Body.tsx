@@ -9,7 +9,7 @@ export const Body = () => {
       <img 
         src={imagePortfolio} 
         alt=""
-        className=' object-cover absolute h-[250px] w-full bottom-0 md:h-screen md: md:static md:w-[30%]'  
+        className='object-cover absolute h-[250px] w-full bottom-0 md:h-screen md: md:static md:w-[30%]'  
       />
       <div className='flex justify-between md:gap-3 mx-auto md:'>
         <div className='hidden md:flex flex-col relative'>

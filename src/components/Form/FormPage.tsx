@@ -30,9 +30,9 @@ export const FormPage = ({children}: Child) => {
         <p className='bg-[#2F2F2F] w-[50px] h-screen'></p>
       </div>
         
-      <img src={loginPic} className='object-cover absolute h-[150px] w-full bottom-0 md:h-screen md:static md:w-[34%]'/>
+      <img src={loginPic} className='object-cover absolute h-[140px] w-full bottom-0 md:h-screen md:static md:w-[34%]'/>
 
-      <div className='md:hidden bg-[#2F2F2F] flex flex-col gap-3 items-center py-[20px] px-[9px] absolute bottom-0 w-full'>
+      <div className='md:hidden bg-[#2F2F2F] flex flex-col gap-3 items-center py-[15px] px-[7px] absolute bottom-0 w-full'>
         <p className='text-[#FFFFFF] font-normal text-[16px]'>Let's Work Together</p>
         <p className='h-[7px] w-[55%] mx-auto bg-[#FFB80E]'></p>
         <div className='text-[25px] flex gap-[40px] text-[#FDFDFD]'>
