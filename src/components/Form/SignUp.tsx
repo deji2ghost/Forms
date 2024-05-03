@@ -28,7 +28,7 @@ export const SignUp = () => {
     })
   return (
     <FormPage>
-        <div className='mx-auto text-center flex flex-col gap-3 md:gap-6 md:w-[37%]'>
+        <div className='mx-auto text-center flex flex-col gap-2 md:gap-6 md:w-[37%]'>
             <h3 className='hidden md:flex items-center justify-center italic text-[#2F2F2F] font-semibold text-[16px]'>
                 <span 
                     className='inline-block cursor-pointer'
@@ -40,7 +40,7 @@ export const SignUp = () => {
             <h1 className='text-[#2F2F2F] font-semibold text-[16px] md:text-[24px]'>
                 Create Account
             </h1>
-            <div className='flex flex-col md:shadow-lg md:bg-[#FDFDFD] gap-3 p-4 rounded-lg md:gap-5'>
+            <div className='flex flex-col md:shadow-lg md:bg-[#FDFDFD] gap-2 p-4 rounded-lg md:gap-5'>
                 <GoogleButton google>
                     {/* <div className=' flex items-center gap-3'>
                     </div> */}
@@ -98,7 +98,7 @@ export const SignUp = () => {
                     </GoogleButton>
                 </form>
             </div>
-            <p className='text-[17px]'>
+            <p className='text-[15px] md:text-[17px]'>
                 <span 
                     className='text-[#2F2F2F]'
                 >Already have an account?</span>

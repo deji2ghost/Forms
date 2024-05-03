@@ -47,7 +47,7 @@ export const Login = () => {
                     <h4>Sign in with Google</h4>
                 </GoogleButton>
                 <p className='font-medium'>Or</p>
-                <form className='flex flex-col gap-2 md:gap-[22px]'>
+                <form className='flex flex-col gap-1 md:gap-[22px]'>
                     <div className='flex flex-col text-left gap-[2px] md:gap-[4px]'>
                         <label className='font-medium'>Email</label>
                         <input 
@@ -80,7 +80,7 @@ export const Login = () => {
                     </GoogleButton>
                 </form>
             </div>
-            <p className='text-[17px]'>
+            <p className='text-[15px] md:text-[17px]'>
                 <span 
                     className='text-[#2F2F2F]'
                 >Don't have an account?</span>
