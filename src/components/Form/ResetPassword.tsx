@@ -19,7 +19,7 @@ export const ResetPassword = () => {
 
   return (
     <FormPage>
-        <div className='mx-auto flex text-[#2F2F2F] flex-col gap-[30px] text-center mt-8 md:gap-6 md:mt-0 md:w-[37%]'>
+        <div className='mx-auto flex text-[#2F2F2F] flex-col gap-[30px] text-center mt-2 md:gap-6 md:mt-0 md:w-[37%]'>
             <h3 className='hidden md:flex items-center justify-center italic text-[#2F2F2F] font-semibold text-[16px]'>
                 <span 
                     className='inline-block cursor-pointer'

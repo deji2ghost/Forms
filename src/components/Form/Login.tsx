@@ -29,7 +29,7 @@ export const Login = () => {
   return (
     <div>
     <FormPage>
-        <div className='mx-auto text-center mt-8 md:mt-0 flex flex-col gap-3 md:gap-6 md:w-[37%]'>
+        <div className='mx-auto text-center flex flex-col gap-3 md:gap-6 md:w-[37%]'>
             <h3 className='hidden md:flex items-center justify-center italic text-[#2F2F2F] font-semibold text-[16px]'>
                 <span 
                     className='inline-block cursor-pointer'
@@ -47,8 +47,8 @@ export const Login = () => {
                     <h4>Sign in with Google</h4>
                 </GoogleButton>
                 <p className='font-medium'>Or</p>
-                <form className='flex flex-col gap-3 md:gap-[22px]'>
-                    <div className='flex flex-col text-left gap-1 md:gap-[4px]'>
+                <form className='flex flex-col gap-2 md:gap-[22px]'>
+                    <div className='flex flex-col text-left gap-[2px] md:gap-[4px]'>
                         <label className='font-medium'>Email</label>
                         <input 
                             className='outline-none py-3 px-6 rounded-lg border border-[#BFBFBF]'
@@ -57,7 +57,7 @@ export const Login = () => {
                             {...register('email')}
                         />
                     </div>
-                    <div className='flex flex-col text-left relative gap-1 md:gap-[4px]'>
+                    <div className='flex flex-col text-left relative gap-[2px] md:gap-[4px]'>
                         <label className='font-medium'>Password</label>
                         <input 
                             className='outline-none py-3 px-6 rounded-lg border border-[#BFBFBF]'

@@ -9,7 +9,7 @@ export const Body = () => {
       <img 
         src={imagePortfolio} 
         alt=""
-        className=' object-cover absolute h-[350px] w-full bottom-0 md:h-screen md: md:static md:w-[30%]'  
+        className=' object-cover absolute h-[250px] w-full bottom-0 md:h-screen md: md:static md:w-[30%]'  
       />
       <div className='flex justify-between md:gap-3 mx-auto md:'>
         <div className='hidden md:flex flex-col relative'>
@@ -35,7 +35,7 @@ export const Body = () => {
           </button>
         </div>
       </div>
-      <div className='bg-[#2F2F2F] flex flex-col gap-3 md:gap-2 items-center py-[80px] px-[20px] absolute bottom-0 w-full md:p-0 md:w-0 md:bg-inherit md:static'>
+      <div className='bg-[#2F2F2F] flex flex-col gap-3 md:gap-2 items-center py-[40px] px-[10px] absolute bottom-0 w-full md:p-0 md:w-0 md:bg-inherit md:static'>
         <p className='text-[#FFFFFF] font-normal text-[16px]'>Let's Work Together</p>
         <p className='h-[7px] w-[55%] mx-auto md:mx-0 md:h-[150px] bg-[#FFB80E] md:w-1 md:mt-[150px]'></p>
         <div className='text-[25px] md:text-[18px] md:bottom-0 flex md:flex-col gap-[40px] md:mt-9 text-[#FDFDFD] md:text-[#2F2F2F]'>

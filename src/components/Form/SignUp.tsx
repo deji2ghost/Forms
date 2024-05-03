@@ -28,7 +28,7 @@ export const SignUp = () => {
     })
   return (
     <FormPage>
-        <div className='mx-auto text-center flex flex-col gap-3 mt-8 md:mt-0 md:gap-6 md:w-[37%]'>
+        <div className='mx-auto text-center flex flex-col gap-3 md:gap-6 md:w-[37%]'>
             <h3 className='hidden md:flex items-center justify-center italic text-[#2F2F2F] font-semibold text-[16px]'>
                 <span 
                     className='inline-block cursor-pointer'
@@ -40,7 +40,7 @@ export const SignUp = () => {
             <h1 className='text-[#2F2F2F] font-semibold text-[16px] md:text-[24px]'>
                 Create Account
             </h1>
-            <div className='flex flex-col md:shadow-lg md:bg-[#FDFDFD] gap-4 p-4 rounded-lg md:gap-5'>
+            <div className='flex flex-col md:shadow-lg md:bg-[#FDFDFD] gap-3 p-4 rounded-lg md:gap-5'>
                 <GoogleButton google>
                     {/* <div className=' flex items-center gap-3'>
                     </div> */}
@@ -48,9 +48,9 @@ export const SignUp = () => {
                         <h4>Sign up with Google</h4>
                 </GoogleButton>
                 <p className='font-medium'>Or</p>
-                <form className='flex flex-col gap-3 md:gap-[22px]'>
+                <form className='flex flex-col gap-4 md:gap-[22px]'>
                     <div className='grid grid-cols-2 gap-4'>
-                        <div className='flex flex-col text-left gap-[6px]'>
+                        <div className='flex flex-col text-left gap-[2px]'>
                             <label className='font-medium'>Firstname</label>
                             <input 
                                 className='outline-none py-3 px-6 rounded-lg border border-[#BFBFBF]'
@@ -59,7 +59,7 @@ export const SignUp = () => {
                                 {...register('email')}
                             />
                         </div>
-                        <div className='flex flex-col text-left gap-[6px]'>
+                        <div className='flex flex-col text-left gap-[2px]'>
                             <label className='font-medium'>Lastname</label>
                             <input 
                                 className='outline-none py-3 px-6 rounded-lg border border-[#BFBFBF]'
@@ -69,7 +69,7 @@ export const SignUp = () => {
                             />
                         </div>
                     </div>
-                    <div className='flex flex-col text-left gap-[6px]'>
+                    <div className='flex flex-col text-left gap-[2px]'>
                         <label className='font-medium'>Email</label>
                         <input 
                             className='outline-none py-3 px-6 rounded-lg border border-[#BFBFBF]'
@@ -78,7 +78,7 @@ export const SignUp = () => {
                             {...register('email')}
                         />
                     </div>
-                    <div className='flex flex-col text-left relative gap-[6px]'>
+                    <div className='flex flex-col text-left relative gap-[2px]'>
                         <label className='font-medium'>Password</label>
                         <input 
                             className='outline-none py-3 px-6 rounded-lg border border-[#BFBFBF]'
