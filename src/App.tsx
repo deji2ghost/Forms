@@ -1,14 +1,14 @@
 import './App.css'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import { Home } from './pages/Home'
-import { SignUp } from './components/Form/SignUp'
-import { Login } from './components/Form/Login'
-import { ResetPassword } from './components/Form/ResetPassword'
+import { SignUp } from './pages/SignUp'
+import { Login } from './pages/Login'
+import { ResetPassword } from './pages/ResetPassword'
 
 function App() {
 
   return (
-    <div className=''>
+    <div className='overflow-hidden'>
       <Router>
         <Routes>
           <Route index element={<Home />} />

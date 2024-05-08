@@ -30,20 +30,24 @@ export const FormPage = ({children}: Child) => {
         <p className='bg-[#2F2F2F] w-[50px] h-screen'></p>
       </div>
         
-      <img src={loginPic} className='object-cover absolute h-[140px] w-full bottom-0 md:h-screen md:static md:w-[34%]'/>
-
-      <div className='md:hidden bg-[#2F2F2F] flex flex-col gap-3 items-center py-[15px] px-[7px] absolute bottom-0 w-full'>
-        <p className='text-[#FFFFFF] font-normal text-[16px]'>Let's Work Together</p>
-        <p className='h-[7px] w-[55%] mx-auto bg-[#FFB80E]'></p>
-        <div className='text-[25px] flex gap-[40px] text-[#FDFDFD]'>
-          <FontAwesomeIcon icon={faMessage} />
-          <FontAwesomeIcon icon={faLinkedinIn} />
-          <FontAwesomeIcon icon={faTwitter} />
-          <FontAwesomeIcon icon={faInstagram} />
-        </div>
-      </div>
+      <img src={loginPic} className='hidden md:flex h-screen object-cover w-[34%]'/>
 
       { children }
+
+      <div className='relative mt-[70px] h-[480px] md:hidden'>
+        <img src={loginPic} className='md:hidden'/>
+
+        <div className='md:hidden bg-[#2F2F2F] flex flex-col gap-3 items-center py-[80px] px-[40px] absolute bottom-0 w-full'>
+          <p className='text-[#FFFFFF] font-normal text-[16px]'>Let's Work Together</p>
+          <p className='h-[7px] w-[55%] mx-auto bg-[#FFB80E]'></p>
+          <div className='text-[25px] flex gap-[40px] text-[#FDFDFD]'>
+            <FontAwesomeIcon icon={faMessage} />
+            <FontAwesomeIcon icon={faLinkedinIn} />
+            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faInstagram} />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
