@@ -5,11 +5,11 @@ import { faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-s
 
 export const Body = () => {
   return (
-    <div className='bg-[#FFFFFF] w-full md:w-[90%] mx-auto md:absolute mt-20 md:mt-0 md:flex md:justify-between text-[#2F2F2F] md:top-40'>
+    <div className='bg-[#FFFFFF] w-full md:w-[95%] mx-auto mt-20 md:mx-0 md:flex md:justify-between text-[#2F2F2F]'>
       <img 
         src={imagePortfolio} 
         alt=""
-        className='hidden md:flex object-cover bottom-0 h-screen w-[30%]'  
+        className='hidden md:flex bottom-0 h-screen w-[30%]'  
       />
       <div className='flex justify-between md:gap-3 mx-auto md:'>
         <div className='hidden md:flex flex-col relative'>

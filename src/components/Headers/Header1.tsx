@@ -10,8 +10,8 @@ export const Header1 = () => {
     setClicked(!clicked)
   }
   return (
-    <div className='md:bg-[#FDFDFD] md:drop-shadow-lg md:py-3 md:px-3'>
-      <div className='flex justify-between items-center w-[90%] mx-auto'>
+    <div className='md:bg-[#FDFDFD] md:drop-shadow-lg'>
+      <div className='flex justify-between items-center md:py-4 md:px-10'>
         <h1 className='flex items-center italic text-[#2F2F2F] font-semibold text-[24px] md:px-2 md:py-2'>
           <span 
             className='bg-[#FFB80E] h-[50px] w-5 inline-block md:hidden'
